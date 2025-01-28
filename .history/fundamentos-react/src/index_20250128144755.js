@@ -8,6 +8,6 @@ import ComParametro from "./componentes/ComParametro";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Primeiro></Primeiro>
-    <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={9.9} />
+    <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={"9.9"} />
   </StrictMode>
 );
