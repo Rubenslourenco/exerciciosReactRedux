@@ -2,14 +2,10 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-import Primeiro from "./componentes/Primeiro";
-import ComParametro from "./componentes/ComParametro";
-import Fragmento from "./componentes/Fragmento";
+import App from "./App";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Primeiro></Primeiro>
-    <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={9.9} />
-    <Fragmento />
+    <App />
   </StrictMode>
 );
