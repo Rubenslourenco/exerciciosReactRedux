@@ -10,18 +10,11 @@ export default function App(props) {
   return (
     <div id="app">
       <h1>Fundamento React </h1>
-      <Card titulo="Exemplo de Card">
-        <Aleatorio min={1} max={60} />
-      </Card>
-      <Card titulo="Fragmento">
-        <Fragmento />
-      </Card>
-      <Card titulo="Com Parâmetro">
-        <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={9.9} />
-      </Card>
-      <Card titulo="Primeiro">
-        <Primeiro></Primeiro>
-      </Card>
+      <Card titulo="Exemplo de Card" />
+      <Aleatorio min={1} max={60} />
+      <Fragmento />
+      <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={9.9} />
+      <Primeiro></Primeiro>
     </div>
   );
 }

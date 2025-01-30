@@ -13,15 +13,9 @@ export default function App(props) {
       <Card titulo="Exemplo de Card">
         <Aleatorio min={1} max={60} />
       </Card>
-      <Card titulo="Fragmento">
-        <Fragmento />
-      </Card>
-      <Card titulo="Com Parâmetro">
-        <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={9.9} />
-      </Card>
-      <Card titulo="Primeiro">
-        <Primeiro></Primeiro>
-      </Card>
+      <Fragmento />
+      <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={9.9} />
+      <Primeiro></Primeiro>
     </div>
   );
 }

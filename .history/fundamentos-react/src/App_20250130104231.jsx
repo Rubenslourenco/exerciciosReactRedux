@@ -16,12 +16,8 @@ export default function App(props) {
       <Card titulo="Fragmento">
         <Fragmento />
       </Card>
-      <Card titulo="Com Parâmetro">
-        <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={9.9} />
-      </Card>
-      <Card titulo="Primeiro">
-        <Primeiro></Primeiro>
-      </Card>
+      <ComParametro titulo="Situação do aluno " aluno="Pedro" nota={9.9} />
+      <Primeiro></Primeiro>
     </div>
   );
 }
